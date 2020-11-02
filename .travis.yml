@@ -21,7 +21,7 @@ android:
     
     #SDK version
     - android-$ANDROID_API_LEVEL
-    - android-$
+    - android-$ANDROID_EMU_API_LEVEL
 
     # Additional components
     - extra-google-google_play_services
