@@ -10,7 +10,6 @@ env:
     - ANDROID_ABI=armeabi-v7a
     - QEMU_AUDIO_DRV=none
     
-
 android:
   components:
     # Android SDK Tools
@@ -18,7 +17,7 @@ android:
     - platform-tools
     
     # BuildTools version
-    - build-tools-$ANDROID_TOOLS_VERSION
+    - build-tools-$ANDROID_BUILD_TOOLS_VERSION
     
     #SDK version
     - android-$ANDROID_API_LEVEL
